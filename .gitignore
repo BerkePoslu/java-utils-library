@@ -1,0 +1,44 @@
+# Ignore IDE files
+.idea/
+*.iml
+.vscode/
+.eclipse/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Maven build artifacts
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+
+# Ignore logs
+*.log
+
+# Ignore runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# Ignore coverage reports
+.nyc_output/
+coverage/
+*.lcov
+
+# Ignore local Maven settings with credentials
+settings.xml
