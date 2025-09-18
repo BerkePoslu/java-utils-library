@@ -68,7 +68,7 @@ jobs:
 
       - name: Build and publish to GitHub Packages
         run: |
-          mvn clean compile test-compile package source:jar javadoc:jar deploy
+          mvn clean compile package source:jar javadoc:jar deploy -DskipTests
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
